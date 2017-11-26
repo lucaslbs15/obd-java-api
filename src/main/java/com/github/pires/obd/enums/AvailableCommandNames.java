@@ -59,7 +59,8 @@ public enum AvailableCommandNames {
     DESCRIBE_PROTOCOL("Describe protocol"),
     DESCRIBE_PROTOCOL_NUMBER("Describe protocol number"),
     IGNITION_MONITOR("Ignition monitor"),
-    FUEL_INJECTION_TIMING("Fuel Injection Timing")
+    FUEL_INJECTION_TIMING("Fuel Injection Timing"),
+    HYBRID_BATTERY_PACK_REMAING_LIFE("Hybrid Battery Pack Remaing Life")
     ;
 
     private final String value;
