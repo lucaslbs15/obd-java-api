@@ -16,6 +16,7 @@ import com.github.pires.obd.enums.AvailableCommandNames;
 
 /**
  * <p>FuelRailPressureCommand class.</p>
+ * This command is equal to Fuel Rail Gauge Pressure
  *
  */
 public class FuelRailPressureCommand extends PressureCommand {
@@ -25,6 +26,7 @@ public class FuelRailPressureCommand extends PressureCommand {
      */
     public FuelRailPressureCommand() {
         super("01 23");
+        useImperialUnits(false);
     }
 
     /**
